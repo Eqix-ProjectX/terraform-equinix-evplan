@@ -1,5 +1,5 @@
 
-############# Service Token Connection Variables #################
+############# Connection Variables #################
 
 variable "equinix_client_id" {
   description = "Equinix client ID (consumer key), obtained after registering app in the developer platform"
@@ -9,6 +9,8 @@ variable "equinix_client_secret" {
   description = "Equinix client secret ID (consumer secret), obtained after registering app in the developer platform"
   type        = string
 }
+
+############# EVPLAN Network Variables #################
 
 variable "network_name" {
   description = "Network name. An alpha-numeric 24 characters string which can include only hyphens and underscores"
