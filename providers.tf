@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-#provider equinix {
-#  client_id     = var.equinix_client_id
-#  client_secret = var.equinix_client_secret
-#}
+provider equinix {
+  client_id     = var.equinix_client_id
+  client_secret = var.equinix_client_secret
+}
