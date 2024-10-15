@@ -1,15 +1,4 @@
 
-############# Connection Variables #################
-
-variable "equinix_client_id" {
-  description = "Equinix client ID (consumer key), obtained after registering app in the developer platform"
-  type        = string
-}
-variable "equinix_client_secret" {
-  description = "Equinix client secret ID (consumer secret), obtained after registering app in the developer platform"
-  type        = string
-}
-
 ############# EVPLAN Network Variables #################
 
 variable "network_name" {
